@@ -27,7 +27,7 @@ const App = () => {
     }
   };
 
-  const handleLike = (index) => {
+  const handleLike = (index) => { 
     const updatedMessages = [...messages];
     updatedMessages[index].likes += 1;
     setMessages(updatedMessages);
